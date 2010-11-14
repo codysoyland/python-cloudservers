@@ -182,7 +182,7 @@ class CloudserversShell(object):
     @arg('--flavor',
          default = None, 
          metavar = '<flavor>',
-         help = "Flavor ID (see 'cloudservers flavors'). Defaults to 256MB RAM instance.")
+         help = "Flavor ID (see 'cloudservers flavor-list'). Defaults to 256MB RAM instance.")
     @arg('--image', 
          default = None,
          metavar = '<image>',
